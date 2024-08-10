@@ -27,6 +27,10 @@ Carpetas:
 
 
 ## Comando a usar
+
+### Preparacion ambiente
 python -m venv .env --prompt TFM-CCT
 .env\Scripts\activate
 python -m pip install -r .\config\requirements.txt
+
+dvc init
